@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Уроки информатики - Изучаем HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .lesson {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .lesson h2 {
+            color: #333;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Уроки информатики - Изучаем HTML</h1>
+    </header>
+    
+    <nav>
+        <a href="#lesson1">Урок 1: Введение в HTML</a>
+        <a href="#lesson2">Урок 2: Основные теги</a>
+        <a href="#lesson3">Урок 3: Списки и ссылки</a>
+    </nav>
+    
+    <div class="container">
+        <div id="lesson1" class="lesson">
+            <h2>Урок 1: Введение в HTML</h2>
+            <p>HTML (HyperText Markup Language) - это основной язык для создания веб-страниц. Он определяет структуру веб-страницы с помощью различных тегов.</p>
+            <p>Пример простейшего HTML-документа:</p>
+            <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Пример страницы&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Привет, мир!&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+        </div>
+        
+        <div id="lesson2" class="lesson">
+            <h2>Урок 2: Основные теги</h2>
+            <p>HTML использует теги для обозначения различных частей документа. Вот некоторые из основных тегов:</p>
+            <ul>
+                <li>&lt;h1&gt; - &lt;h6&gt;: Заголовки различных уровней</li>
+                <li>&lt;p&gt;: Абзац текста</li>
+                <li>&lt;a&gt;: Ссылка</li>
+                <li>&lt;img&gt;: Изображение</li>
+            </ul>
+        </div>
+        
+        <div id="lesson3" class="lesson">
+            <h2>Урок 3: Списки и ссылки</h2>
+            <p>В HTML можно создавать упорядоченные и неупорядоченные списки. Вот пример:</p>
+            <pre><code>&lt;ul&gt;
+    &lt;li&gt;Элемент списка 1&lt;/li&gt;
+    &lt;li&gt;Элемент списка 2&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+            <p>А вот пример ссылки:</p>
+            <pre><code>&lt;a href="https://example.com"&gt;Перейти на сайт&lt;/a&gt;</code></pre>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Уроки информатики. Все права защищены.</p>
+    </footer>
+</body>
+</html>
